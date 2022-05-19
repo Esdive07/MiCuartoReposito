@@ -1,0 +1,22 @@
+GIT
+--COMANDOS BASICO--
+git init-> crea repositosio local
+git add . --> agrega todos los cambios  
+git add archivo.txt-->agrega cambios especificos
+git status--> visualiza cambios(rojo pendiene, verde guadados)
+git remote add origin https://github.com/Esdive07/MiCuartoReposito.git-->asociar el repositorio web con el local
+ctrl+L -->Limpia pantalla
+git commit -m "Mensaje de los cambios"
+git log--> fecha y hora de commit
+git push origin master-->subir los cambios al origen
+git pull origin master-->bajar los cambios del origen
+git clone ruta de la web(code)--> clonarlo que esta en la nube al local(mi pc)
+cd MiSegundoRepositorio/--> para entrar al epositorio despues de clonar
+
+--RAMAS--
+
+git branch--> mostar as ramas que se tienen
+git branch nomberama--> crear nueva rama
+git checkout nombrerama--> cambiar entre ramas
+git merge ramadelacualquierotraerloscambiosalactual--> pasar cambios entre ramas
+git fetch origin rama2:rama2
